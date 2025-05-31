@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://yunyuecun.liu5978.top/d/tvbox/tvbox-api.json?sign=Y2uyM1mwnmARnJ6niBaIp6xxfcReIYrHKRRgE0AOnTM=:0");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://yunyuecun.liu5978.cn/d/tvbox/tvbox-api.json?sign=Y2uyM1mwnmARnJ6niBaIp6xxfcReIYrHKRRgE0AOnTM=:0");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
